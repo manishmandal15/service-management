@@ -51,6 +51,7 @@ body{
    NAVBAR
 ========================= */
 
+
 .custom-navbar{
 
     background:#fff;
@@ -374,7 +375,13 @@ section h2{
     padding:25px;
 }
 
-.project-content a{
+/* .project-content a{
+    text-decoration:none;
+    color:var(--primary);
+    font-weight:600;
+} */
+
+.project-content a:not(.btn){
     text-decoration:none;
     color:var(--primary);
     font-weight:600;
@@ -573,6 +580,8 @@ section h2{
 .projects-page-section{
     padding:100px 0;
 }
+
+
 
 .projects-page-section .project-card{
     background:#fff;
